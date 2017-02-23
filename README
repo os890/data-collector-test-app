@@ -6,6 +6,6 @@ build: mvn clean package
    http://localhost:8080/data-collector-test-app-1.6.1/info/found/
 
 expected result:
-number of found entries: 274
+number of found entries: 270
 
 [list of classes]
