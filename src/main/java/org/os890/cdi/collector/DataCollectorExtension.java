@@ -36,7 +36,7 @@ public class DataCollectorExtension implements Extension {
         if (beanClass.equals(DataHolder.class)) {
             processAnnotatedType.veto();
         } else if (beanClass.getName().startsWith("org.apache.deltaspike") || beanClass.getName().startsWith("org.os890")) {
-            if (!beanClass.isAnnotation()) {
+            if (!beanClass.isAnnotation() && !beanClass.isEnum()) {
                 foundInfo.add(beanClass);
             }
         }
