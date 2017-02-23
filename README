@@ -1,0 +1,11 @@
+build: mvn clean package
+-> deploy & start
+-> open path /info/found
+ examples:
+   http://localhost:8080/info/found/
+   http://localhost:8080/data-collector-test-app-1.6.1/info/found/
+
+expected result:
+number of found entries: 274
+
+[list of classes]
